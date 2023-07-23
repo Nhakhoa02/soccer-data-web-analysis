@@ -7,7 +7,7 @@ from dash import dcc, html, callback, Output, Input
 
 dash.register_page(__name__)
 
-file_path = '/soccer21-22.csv'
+file_path = './soccer21-22.csv'
 df = pd.read_csv(file_path)
 
 data9 = df.iloc[371:380, :]
