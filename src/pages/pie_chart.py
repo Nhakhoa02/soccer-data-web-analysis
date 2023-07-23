@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 dash.register_page(__name__)
 
-file_path = '/soccer21-22.csv'
+file_path = './soccer21-22.csv'
 df = pd.read_csv(file_path)
 
 # Define the available options for X axis
