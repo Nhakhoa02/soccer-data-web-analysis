@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 
 dash.register_page(__name__)
 
-file_path = 'soccer21-22.csv'
-df = pd.read_csv('soccer21-22.csv')
+
+df = pd.read_csv('src/assets/soccer21-22.csv')
 
 # Define the available options for X axis
 x_options = [{'label': col, 'value': col} for col in df.columns]
