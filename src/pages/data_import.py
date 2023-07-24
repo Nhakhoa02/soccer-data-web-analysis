@@ -9,8 +9,13 @@ import plotly.graph_objects as go
 dash.register_page(__name__, path='/', name='Home') # '/' is home page
 
 # Define the DataFrame as a global variable
+<<<<<<< HEAD
 file_path = 'soccer21-22.csv'
 df = pd.read_csv('soccer21-22.csv')
+=======
+file_path = 
+df = pd.read_csv("soccer21-22.csv")
+>>>>>>> 7ca3e405582d7675a7d3770158e7a9b3926f4baf
 
 # Data Import Section
 sample_data = html.Div(

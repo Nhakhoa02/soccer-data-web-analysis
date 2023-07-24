@@ -11,7 +11,11 @@ import plotly.express as px
 dash.register_page(__name__)
 
 file_path = 'soccer21-22.csv'
+<<<<<<< HEAD
 df = pd.read_csv('soccer21-22.csv')
+=======
+df = pd.read_csv("soccer21-22.csv")
+>>>>>>> 7ca3e405582d7675a7d3770158e7a9b3926f4baf
 
 # Line graph section
 line_graph_section = html.Div(

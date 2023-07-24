@@ -10,7 +10,11 @@ import matplotlib.pyplot as plt
 dash.register_page(__name__)
 
 file_path = 'soccer21-22.csv'
+<<<<<<< HEAD
 df = pd.read_csv('soccer21-22.csv')
+=======
+df = pd.read_csv("soccer21-22.csv")
+>>>>>>> 7ca3e405582d7675a7d3770158e7a9b3926f4baf
 
 # Define the available options for X axis
 x_options = [{'label': col, 'value': col} for col in df.columns]
