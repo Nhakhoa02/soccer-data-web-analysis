@@ -11,7 +11,7 @@ import plotly.express as px
 dash.register_page(__name__)
 
 file_path = 'soccer21-22.csv'
-df = pd.read_csv("soccer21-22.csv")
+df = pd.read_csv('soccer21-22.csv')
 
 # Define the available options for X and Y axes
 x_options = [{'label': col, 'value': col} for col in df.columns]
