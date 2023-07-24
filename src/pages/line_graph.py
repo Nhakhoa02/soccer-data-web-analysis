@@ -10,7 +10,7 @@ import plotly.express as px
 
 dash.register_page(__name__)
 
-df = pd.read_csv('src/assets/soccer21-22.csv')
+df = pd.read_csv('soccer21-22.csv')
 
 # Line graph section
 line_graph_section = html.Div(

@@ -10,7 +10,7 @@ dash.register_page(__name__, path='/', name='Home') # '/' is home page
 
 # Define the DataFrame as a global variable
 
-df = pd.read_csv('src/assets/soccer21-22.csv')
+df = pd.read_csv('soccer21-22.csv')
 
 # Data Import Section
 sample_data = html.Div(
