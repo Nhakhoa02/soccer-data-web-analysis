@@ -1,14 +1,14 @@
 import dash
 import dash_bootstrap_components as dbc
 import pandas as pd
-import dash_table
+from dash import dash_table
 import plotly.graph_objects as go
 from dash import dcc, html, callback, Output, Input
 
 dash.register_page(__name__)
 
 
-df = pd.read_csv('soccer21-22.csv')
+df = pd.read_csv('src\soccer21-22.csv')
 
 data9 = df.iloc[371:380, :]
 data10 = df.iloc[359:366, ] 

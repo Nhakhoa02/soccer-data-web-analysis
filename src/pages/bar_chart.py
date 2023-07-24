@@ -1,7 +1,7 @@
 import dash
 import dash_bootstrap_components as dbc
 import pandas as pd
-import dash_table
+from dash import dash_table
 import plotly.graph_objects as go
 from dash import dcc, html, callback, Output, Input
 import numpy as np
@@ -10,7 +10,7 @@ import plotly.express as px
 
 dash.register_page(__name__)
 
-df = pd.read_csv('soccer21-22.csv')
+df = pd.read_csv('src\soccer21-22.csv')
 
 # Define the available options for X and Y axes
 x_options = [{'label': col, 'value': col} for col in df.columns]

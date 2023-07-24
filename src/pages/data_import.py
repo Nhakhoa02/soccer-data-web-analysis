@@ -2,7 +2,7 @@ import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
 import pandas as pd
-import dash_table
+from dash import dash_table
 import plotly.graph_objects as go
 
 # Initialize the Dash app
@@ -10,7 +10,7 @@ dash.register_page(__name__, path='/', name='Home') # '/' is home page
 
 # Define the DataFrame as a global variable
 
-df = pd.read_csv('soccer21-22.csv')
+df = pd.read_csv('src\soccer21-22.csv')
 
 # Data Import Section
 sample_data = html.Div(
