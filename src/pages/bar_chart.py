@@ -10,7 +10,7 @@ import plotly.express as px
 
 dash.register_page(__name__)
 
-df = pd.read_csv('src\soccer21-22.csv')
+df = pd.read_csv("https://raw.githubusercontent.com/Nhakhoa02/soccer-data-web-analysis/main/src/soccer21-22.csv")
 
 # Define the available options for X and Y axes
 x_options = [{'label': col, 'value': col} for col in df.columns]

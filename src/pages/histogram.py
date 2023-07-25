@@ -8,7 +8,7 @@ from dash import dcc, html, callback, Output, Input
 dash.register_page(__name__)
 
 
-df = pd.read_csv('src\soccer21-22.csv')
+df = pd.read_csv("https://raw.githubusercontent.com/Nhakhoa02/soccer-data-web-analysis/main/src/soccer21-22.csv", encoding= "latin")
 
 data9 = df.iloc[371:380, :]
 data10 = df.iloc[359:366, ] 
